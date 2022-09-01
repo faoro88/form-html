@@ -1,0 +1,87 @@
+body {
+  display: flex;
+  margin: 0px;
+  justify-content: center;
+  align-items: center;
+  height: 1000px;
+}
+
+p {
+  margin: 5px 0px 0px 0px;
+}
+
+button{
+    height: 70%;
+    width: 20%;
+    margin: 5px;
+}
+
+.form-container {
+  display: flex;
+  height: 440px;
+  width: 400px;
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+}
+
+.inputs {
+  padding: 10px 0px 0px 5px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.row-item {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.birthdate {
+  display: flex;
+  width: 40%;
+}
+
+.form-header {
+  background-color: white;
+  width: 30%;
+  text-align: center;
+  margin-top: -5%;
+}
+
+.data-header{
+    width: 13%;
+}
+
+.bigger {
+  width: 84%;
+}
+
+.big {
+  width: 50%;
+}
+
+.small {
+  width: 35%;
+}
+
+.smaller {
+  width: 10%;
+}
+
+.buttons{
+    height: 100%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-color: aliceblue;
+
+}
